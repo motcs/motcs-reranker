@@ -1,0 +1,6 @@
+# motcs-reranker 运行依赖（仅服务运行需要，不含转换用的 optimum，控制镜像体积）
+fastapi
+uvicorn[standard]
+onnxruntime
+transformers
+numpy

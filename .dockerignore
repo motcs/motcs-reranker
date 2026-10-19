@@ -1,0 +1,9 @@
+# 打包进镜像时排除的本地目录/文件
+.venv
+.idea
+__pycache__
+*.pyc
+.git
+.DS_Store
+# 只打包 INT8 模型；排除 fp32（model.onnx，若有的话约 1GB）
+models/*/model.onnx

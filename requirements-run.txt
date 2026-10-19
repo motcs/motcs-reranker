@@ -1,0 +1,7 @@
+# motcs-reranker 运行依赖（固定已验证兼容版本）
+fastapi
+uvicorn[standard]
+onnxruntime==1.31.0
+transformers==4.44.2
+tokenizers==0.19.1
+numpy
